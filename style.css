@@ -60,3 +60,16 @@ body{
     color: azure;
     margin: 20px;
 }
+@media (max-width: 600px) {
+    #inptask, #taskholder {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #taskmanager {
+        margin-left: 5%;
+        font-size: x-large;
+    }
+    #addbtn {
+        padding: 10px 15px;
+    }
+}
